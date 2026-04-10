@@ -1,9 +1,9 @@
 <?php
-class person{
-public $name,$age;
-function show(){
-$this->a+ $this->b;
-
+class empoylear{
+public $name = "musraf";
 }
+class manager extends empolay{
 }
+$m1 = new manager();
+echo $m1->name;
 ?>
