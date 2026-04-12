@@ -43,6 +43,7 @@ class employee {
   function __construct($n, $a, $s){
     $this->name = $n;
      $this->age = $a;
+     
       $this->sellary = $s;
   }
   function info(){

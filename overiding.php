@@ -1,16 +1,30 @@
 <?php
-class Animal {
-    public function sound(){
-        echo "Hello";
+ class father{
+    public function __construct() {
+       echo 'connection';
     }
-}
-
-class Dog extends Animal {
-    public function sound(){
-        echo "musraf";
+    function sounde(){
+        echo 'none';
     }
-}
+ }
 
-$obj = new Animal();
-$obj->sound();
+//  $animal = new animal();
+ class child extends father{
+    public function __construct() {
+       echo 'child';
+    }
+    function sounde(){
+        echo 'none';
+    }
+ }
+
+ $child =  new father();
+
+
+
+
+
+
+
+
 ?>
